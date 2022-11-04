@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+
+  <link rel="icon" href="devchallenges.png" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+
+  <title>Checkout</title>
+
+</head>
+
+<body>
+  <header>
+    <h1>Checkout</h1>
+  </header>
+
+  <section>
+    <!-- SHOPPING CARD----------- -->
+    <div class="shopping-card">
+
+      <div class="card1 card">
+        <img src="./photo1.png" alt="Bag">
+
+        <div class="card-side">
+          <p class="product">Vintage Backbag</p>
+          <div class="price-container">
+            <span>$54.99 </span>
+            <p class="price">$94.99</p>
+          </div>
+          <div class="input">
+            <button class="input-btn btn-substract">-</button>
+            <p> 1 </p>
+            <button class="input-btn btn-sum">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card2 card">
+        <img src="./photo2.png" alt="Bag">
+
+        <div class="card-side">
+          <p class="product">Levi Shoes</p>
+          <div class="price-container">
+            <span>$74.99</span>
+            <p class="price">$124.99</p>
+          </div>
+          <div class="input">
+            <button class="input-btn btn-substract">-</button>
+            <p> 1 </p>
+            <button class="input-btn btn-sum">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="total-container">
+        <div class="shipping">
+          <p>Shipping</p>
+          <p>$19</p>
+        </div>
+        <div class="total">
+          <p>Total</p>
+          <p> $148.98</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT INFO------ -->
+    <div class="contact-container">
+      <form action="" class="form1">
+        <p class="title">Contact infomation</p>
+
+        <label for="email">E-mail</label>
+        <span class="material-symbols-outlined">
+          mail
+          </span>
+        <input type="text" id="email" placeholder="Enter your email...">
+
+        <label for="phone">Phone</label>
+        <span class="material-symbols-outlined">
+          call
+          </span>
+        <input type="text" id="phone" placeholder="Enter your phone...">
+
+      </form>
+    </div>
+
+  </section>
+</body>
+
+</html>
